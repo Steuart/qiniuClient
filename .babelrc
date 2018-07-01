@@ -1,0 +1,15 @@
+{
+  "comments": false,
+  "env": {
+    "main": {
+      "presets": ["env"]
+    },
+    "renderer": {
+      "presets": [
+        ["env", { "modules": false }],
+        "stage-0"
+      ]
+    }
+  },
+  "plugins": ["transform-runtime","syntax-dynamic-import","transform-object-rest-spread"]
+}
